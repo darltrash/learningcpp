@@ -24,3 +24,13 @@ bfunk:
 	$(CPP) bfunk.cpp -o bfunk.out
 	./bfunk.out
 	rm bfunk.out
+
+win:
+	$(CPP) win.cpp -o win.out `sdl2-config --libs --cflags` -lm
+	./win.out
+	rm win.out
+
+thred:
+	$(CPP) thred.cpp -o thred.out -pthread
+	./thred.out
+	rm thred.out

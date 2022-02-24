@@ -5,5 +5,5 @@ Me trying to learn CPP and failing misserably.
 2. ✅ make guess: Guessing game
 4. ✅ make file:  Create a file
 5. 🌀 make bfunk: Brainf*ck interpreter
-6. 🕐 make win:   Initialize a window
-7. 🕐 make thrd:  Program that utilizes threading
+6. ✅ make win:   Initialize a window
+7. ✅ make thred: Program that utilizes threading
