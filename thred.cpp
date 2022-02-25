@@ -19,6 +19,7 @@ void displayLandfil(unsigned short landfil[], short len) {
 
 void fillFromTo(unsigned short landfil[], short from, short to) {
     std::mt19937 random_number_engine; 
+    random_number_engine.seed(time(NULL) + from);
     auto dice_roller = std::bind(random_range, random_number_engine);
 
     for (int a = from; a < to; a++ ) {
